@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTodoButton testing renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "pink",
+      "borderRadius": 25,
+      "height": 50,
+      "justifyContent": "center",
+      "marginHorizontal": 15,
+      "marginTop": 8,
+    }
+  }
+  testID="AddTodoButton"
+>
+  <Text>
+    Add Todo
+  </Text>
+</View>
+`;

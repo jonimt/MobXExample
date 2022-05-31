@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header testing renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomColor": "black",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "flex": 1,
+        "fontFamily": "HelveticaNeue-Medium",
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Todos
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontFamily": "HelveticaNeue",
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 15,
+      }
+    }
+  >
+    0
+    /
+    0
+  </Text>
+</View>
+`;

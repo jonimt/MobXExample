@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoInput testing renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingHorizontal": 15,
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="todo"
+    style={
+      Object {
+        "borderColor": "black",
+        "borderRadius": 25,
+        "borderWidth": 1,
+        "height": 50,
+        "paddingHorizontal": 8,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+    value=""
+  />
+</View>
+`;

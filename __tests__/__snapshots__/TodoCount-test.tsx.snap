@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoCount testing renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "fontFamily": "HelveticaNeue",
+      "fontSize": 18,
+      "position": "absolute",
+      "right": 15,
+    }
+  }
+>
+  0
+  /
+  0
+</Text>
+`;

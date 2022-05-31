@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tick testing renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 8,
+        "height": 20,
+        "width": 20,
+      },
+      Object {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+  testID="TodoListItemTick"
+/>
+`;

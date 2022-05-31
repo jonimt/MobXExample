@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title testing renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "flex": 1,
+      "fontFamily": "HelveticaNeue-Medium",
+      "fontSize": 20,
+      "textAlign": "center",
+    }
+  }
+>
+  
+</Text>
+`;
