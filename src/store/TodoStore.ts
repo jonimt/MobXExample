@@ -1,4 +1,4 @@
-import {action, computed, makeObservable, observable} from 'mobx';
+import {action, computed, makeObservable, observable, runInAction} from 'mobx';
 import 'react-native-get-random-values';
 import {v4 as uuid} from 'uuid';
 
@@ -29,6 +29,7 @@ export class TodoStore {
       totalTodos: computed,
       completedTodosCount: computed,
       addTodo: action,
+      fetchTodos: action,
     });
   }
 
@@ -42,6 +43,19 @@ export class TodoStore {
 
   addTodo(title: string) {
     this.todos.push(new Todo(title));
+  }
+
+  async fetchTodos() {
+    return await fetch('https://jsonplaceholder.typicode.com/todos')
+      .then(async response => response.json())
+      .then(todos => {
+        runInAction(() => {
+          this.todos = todos.map(t => new Todo(t.title));
+        });
+      })
+      .catch(e => {
+        return e;
+      });
   }
 }
 
